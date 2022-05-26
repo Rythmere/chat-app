@@ -41,15 +41,31 @@ render() {
             <View style={styles.colorContainer}>
                 {/* Creates selectable icons that update color state */}
                 <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background color for chat."
+                accessibilityRole="button"
                 style={[{ backgroundColor: BGcolors.black }, styles.colorbutton]}
                 onPress={() => this.changeBgColor(BGcolors.black)} />
                 <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background color for chat."
+                accessibilityRole="button"
                 style={[{ backgroundColor: BGcolors.purple }, styles.colorbutton]}
                 onPress={() => this.changeBgColor(BGcolors.purple)} />
                 <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background color for chat."
+                accessibilityRole="button"
                 style={[{ backgroundColor: BGcolors.gray }, styles.colorbutton]}
                 onPress={() => this.changeBgColor(BGcolors.gray)} />
                 <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="More options"
+                accessibilityHint="Lets you choose the background color for chat."
+                accessibilityRole="button"
                 style={[{ backgroundColor: BGcolors.green }, styles.colorbutton]}
                 onPress={() => this.changeBgColor(BGcolors.green)} />
             </View>
