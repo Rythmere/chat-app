@@ -1,7 +1,7 @@
 # Chat App
 Chat app is a chatting application for mobile devices, created in React Native. The app provides users with a chat interface created with gifted chat and options to share images and their location while saving their messages to firestore and locally.
 
-<img src="assets/ChatApp.jpg" height="auto" width="200" alt="movie-view2"
+<img src="assets/ChatApp.jpg" height="auto" width="200" alt="movie-view2">
 
 ## tools: 
 - Expo, 
